@@ -6,7 +6,7 @@ namespace DataReader.Main.Config
 {
 	public class ClientSocketConfig
 	{
-		public short Port { get; set; }
+		public ushort Port { get; set; }
 		public string Ip { get; set; }
 		public byte[] DataArray { get; set; }
 	}

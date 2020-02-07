@@ -7,7 +7,7 @@ namespace DataReader.Main.Config
 	public class ConfigFile
 	{
 		public string IpAddress { get; set; }
-		public short PortNumber { get; set; }
+		public ushort PortNumber { get; set; }
 		public List<int> UsedAxisNumbers { get; set; }
 	}
 }
